@@ -6,7 +6,7 @@
         <a-menu 
         theme="dark" 
         mode="horizontal" 
-        :default-selected-keys="['selecetedKeys1']">
+        :default-selected-keys="['1']">
             <a-menu-item key="1">首页</a-menu-item>
 
             <a-menu-item key="2">新闻</a-menu-item>
@@ -17,7 +17,8 @@
 
             <a-menu-item key="6">文化康养</a-menu-item>
             
-            <a-menu-item key="5">登录</a-menu-item>
+            <a-menu-item key="5"><router-link to="/login">登录</router-link></a-menu-item>
+            <router-view></router-view>
         </a-menu>
         <a-button class="logout" type="dashed" ghost>退出</a-button>
     </a-layout-header>

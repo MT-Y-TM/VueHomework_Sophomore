@@ -1,10 +1,13 @@
 // 创建路由实例
+import { createMemoryHistory, createRouter } from 'vue-router'
+
 import login from './components/pages/login.vue'
-import {createRouter, useRouter,createWebHashHistory} from 'vue-router'
+
+const routes = [
+  { path: '/login', component: login },
+]
 
 const router = createRouter({
-    history: createWebHashHistory(),
-    routes: [
-        { path: '/login', component: () => import('./components/pages/login.vue') },
-    ]
+  history: createMemoryHistory(),
+  routes,
 })
