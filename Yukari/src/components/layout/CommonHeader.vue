@@ -1,13 +1,15 @@
 <template>
     <a-layout-header class="header">
         <div class="logo">
-            <img src="../../../public/icon.png" alt="logo" width="auto" height="100%" />
+            <a href="./Home.vue"><img src="../../../public/icon.png" alt="logo" width="auto" height="100%" /></a>
         </div>
         <a-menu 
         theme="dark" 
         mode="horizontal" 
         :default-selected-keys="['1']">
-            <a-menu-item key="1">首页</a-menu-item>
+            <a-menu-item key="1">
+                <router-link to="/Home">首页</router-link>
+            </a-menu-item>
 
             <a-menu-item key="2">新闻</a-menu-item>
 
@@ -17,8 +19,9 @@
 
             <a-menu-item key="6">文化康养</a-menu-item>
             
-            <a-menu-item key="5"><router-link to="/login">登录</router-link></a-menu-item>
-            <router-view></router-view>
+            <a-menu-item key="5">
+                <router-link to="/Login">登录</router-link>
+            </a-menu-item>
         </a-menu>
         <a-button class="logout" type="dashed" ghost>退出</a-button>
     </a-layout-header>

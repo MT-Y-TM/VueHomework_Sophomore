@@ -1,9 +1,10 @@
 import { createApp } from 'vue';
+import router from './router';
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/reset.css';
 import { ConfigProvider } from 'ant-design-vue';
-import App from './components/layout/home.vue';
-import router from './router';
+import App from './components/Layout/Home.vue';
+
 
 const app = createApp(App);
 

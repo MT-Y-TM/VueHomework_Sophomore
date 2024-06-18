@@ -1,3 +1,3 @@
 <template>
-    登录页面
+    首页内容
 </template>
