@@ -9,11 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ant-design/icons-vue": "^7.0.1",
-    "ant-design-vue": "^4.2.3",
-    "antd-theme-generator": "^1.2.11",
-    "less": "^2.7.3",
-    "less-loader": "^5.0.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.3"
   },
