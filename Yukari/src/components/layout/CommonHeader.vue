@@ -8,19 +8,37 @@
         mode="horizontal" 
         :default-selected-keys="['1']">
             <a-menu-item key="1">
-                <router-link to="/Home">首页</router-link>
+                    <HomeTwoTone />
+                <router-link to="/Home">
+                    首页
+                </router-link>
             </a-menu-item>
 
-            <a-menu-item key="2">新闻</a-menu-item>
+            <a-menu-item key="2">
+                <BellTwoTone />
+                新闻
+            </a-menu-item>
 
-            <a-menu-item key="3">社区</a-menu-item>
+            <a-menu-item key="3">
+                <EnvironmentTwoTone />
+                社区
+            </a-menu-item>
 
-            <a-menu-item key="4">关于</a-menu-item>
+            <a-menu-item key="4">
+                <InfoCircleTwoTone />
+                关于
+            </a-menu-item>
 
-            <a-menu-item key="6">文化康养</a-menu-item>
+            <a-menu-item key="6">
+                <StarTwoTone />
+                文化康养
+            </a-menu-item>
             
             <a-menu-item key="5">
-                <router-link to="/Login">登录</router-link>
+                <IdcardTwoTone />
+                <router-link to="/Login">
+                    登录
+                </router-link>
             </a-menu-item>
         </a-menu>
         <a-button class="logout" type="dashed" ghost>退出</a-button>
@@ -30,6 +48,10 @@
 <script setup>
 import { ref } from 'vue'
 const selecetedKeys1 = ref('1')
+
+import { HomeTwoTone,InfoCircleTwoTone,BellTwoTone,
+    EnvironmentTwoTone,StarTwoTone,IdcardTwoTone } from  '@ant-design/icons-vue';
+
 </script>
 
 <style>
