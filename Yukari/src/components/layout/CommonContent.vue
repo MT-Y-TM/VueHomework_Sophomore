@@ -5,7 +5,7 @@
     </el-main>
 </template>
 
-<script>
+<script setup>
 import router from '../../router';
 
 </script>

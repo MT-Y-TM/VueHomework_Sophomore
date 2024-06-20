@@ -1,5 +1,24 @@
 <template>
-    <el-header class="common-header">Header</el-header>
+    <el-header style="text-align: center; font-size: 80px ; width: 100%; margin: 0; padding: 0;">
+        <el-menu 
+            mode="horizontal" 
+            class="el-menu"
+            background-color="#0E51A5" 
+            text-color="#f780fd"
+            active-text-color="#67fc1d">
+            <el-menu-item index="1">
+                
+                首页
+            </el-menu-item>
+            <el-menu-item index="2">新闻</el-menu-item>
+            <el-menu-item index="3">社区</el-menu-item>
+            <el-menu-item index="4">文化康养</el-menu-item>
+            <el-menu-item index="5">
+                
+                登录/注册
+            </el-menu-item>
+        </el-menu>
+    </el-header>
 </template>
 
 <script setup>
@@ -7,13 +26,7 @@
 </script>
 
 <style>
-.common-header {
-    background-color: #f5f5f5;
-    height: 70px;
-    line-height: 60px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.el-menu{
+    width: 100%;
 }
 </style>

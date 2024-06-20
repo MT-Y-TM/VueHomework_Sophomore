@@ -1,19 +1,22 @@
 <template>
   <div class="common-layout">
-    <el-container>
+
       <common-header></common-header>
+      
       <common-content></common-content>
+      
       <common-footer></common-footer>
-    </el-container>
+
   </div>
 </template>
   
 
 
 <style>
-body{
+body {
   margin: 0;
 }
+
 </style>
 
 <script setup>
