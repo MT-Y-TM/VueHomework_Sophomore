@@ -1,7 +1,7 @@
 
 <template>
     <el-footer class="footer">
-        Copyright © 2024 下北泽信息技术有限公司
+        Copyright © 2008-2024 下北泽信息技术有限公司
         <br>
         地址：广东省广州市越秀区动漫星城西区负三层夹层BW233
         <br>

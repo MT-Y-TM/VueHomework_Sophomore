@@ -1,12 +1,3 @@
 <template>
-   登录页面
+   登陆注册页面
 </template>
-
-
-<script setup>
-
-</script>
-
-<style>
-
-</style>
