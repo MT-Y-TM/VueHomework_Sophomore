@@ -1,12 +1,10 @@
 <template>
     <el-main class="el-main">
         <router-view></router-view>
-        <br>
     </el-main>
 </template>
 
 <script setup>
-import router from '../../router';
 
 </script>
 
@@ -14,4 +12,9 @@ import router from '../../router';
 .el-main {
     padding: 20px;
 }
+.siteTitle {
+    text-align: center;
+    margin-top: 50px;
+    color: #f780fd;
+  }
 </style>

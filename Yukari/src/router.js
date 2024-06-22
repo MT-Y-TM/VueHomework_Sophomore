@@ -8,6 +8,9 @@ const router = createRouter({
     { path: '/Login', component:() => import('./components/Pages/Login.vue')},
     {path: '/', component:() => import('./components/Pages/FirstPage.vue')},
     {path: '/Home', component:() => import('./components/Pages/FirstPage.vue')},
+    {path: '/News' , component:() => import('./components/Pages/News.vue')},
+    {path: '/Community' , component:() => import('./components/Pages/Community.vue')},
+    {path: '/Culture', component:() => import('./components/Pages/Culture.vue')}
   ]
 })
 
