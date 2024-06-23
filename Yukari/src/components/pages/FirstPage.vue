@@ -10,6 +10,7 @@
         </el-carousel-item>
       </el-carousel>
       <br>
+      <!-- 利用element-plus的折叠面板实现关于我们 -->
       <div class="demo-collapse">
         <el-collapse v-model="activeName" accordion>
           <el-collapse-item name="1" title="关于下北泽养老基地？" class="custom-title">

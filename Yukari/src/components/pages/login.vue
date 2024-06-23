@@ -1,3 +1,5 @@
 <template>
-   登陆注册页面
+    <div class="login">
+        登录
+    </div>
 </template>

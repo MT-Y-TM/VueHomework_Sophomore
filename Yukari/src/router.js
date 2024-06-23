@@ -5,7 +5,7 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 const router = createRouter({
   history: createMemoryHistory(),
   routes: [
-    { path: '/Login', component:() => import('./components/Pages/Login.vue')},
+    { path: '/Login', component:() => import('./components/Pages/LoginPage.vue')},
     {path: '/', component:() => import('./components/Pages/FirstPage.vue')},
     {path: '/Home', component:() => import('./components/Pages/FirstPage.vue')},
     {path: '/News' , component:() => import('./components/Pages/News.vue')},
