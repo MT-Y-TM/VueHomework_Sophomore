@@ -1,6 +1,9 @@
 <template>
    <div class="LoginBox">
       <div class="Box">
+         <div class="siteTitle">
+            <h2>登录/注册</h2>
+         </div>
          <el-tabs tab-position="left" style="height: 200px" class="demo-tabs">
             <el-tab-pane label="登录">
                <Login></Login>
@@ -32,7 +35,7 @@ import Signup from './Signup.vue';
 .Box {
   width: 1100px;
   height: 800px;
-  background-color: #60cdecbe;
+  background-color: #34d3ffbe;
   border-radius: 30px;
   box-shadow: 0 0 30px rgb(144, 218, 255);
   display: flex;
