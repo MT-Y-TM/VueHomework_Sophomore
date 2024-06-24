@@ -48,6 +48,7 @@
             </el-col>
             <el-col :span="4"><div class="nothing"></div></el-col>
           </el-row>
+
           <el-row :gutter="20">
             <el-col :span="4"><div class="nothing"></div></el-col>
             <el-col :span="16">
@@ -95,7 +96,62 @@
                 </el-row>
             </el-col>
             <el-col :span="4"><div class="nothing"></div></el-col>
-          </el-row>
+        </el-row>
+
+        <el-row :gutter="20">
+            <el-col :span="4"><div class="nothing"></div></el-col>
+            <el-col :span="16">
+                <el-row :gutter="0">
+                    <el-col :span="8">
+                        <div class="bust">
+                            <img src="../../../public/pic/Culture/bust/soyo.jpg">
+                        </div>
+                    </el-col>
+                    <el-col :span="16">
+                        <div class="ArticleBox">
+                          <h3 style="text-align: center;">画面的艺术</h3>
+                          <h4 style="color: red;">投稿者：那就...由我来结束乐队</h4>
+                          <h6>投稿时间：二十三小时前</h6>
+                          <p style="text-align: left;">
+                            &nbsp;&nbsp;作为一名热爱绘画的老年人，我对数码绘画和手工绘画都有着深厚的情感和独到的理解。这两种绘画方式，各有千秋，它们不仅仅是技巧上的差异，
+                            更代表了不同的创作体验和艺术表达的可能性。
+                            <div class="article-img">
+                                <img src="../../../public/pic/Culture/article/draw1.jpg" alt="" srcset="">
+                            </div>
+                            &nbsp;&nbsp;手工绘画，这是一种经典且悠久的绘画方式，它强调的是艺术家与画布、颜料之间直接的物理接触。拿起画笔，蘸取色彩丰富的颜料，
+                            每一笔都蕴含着画家的情感和体温。无论是细腻的素描、生动的水彩，还是厚重的油画，手工绘画的魅力在于其不可复制的质感和偶然性。
+                            对于我这样的老年人而言，手工绘画是一种沉淀心灵、修身养性的过程，每一次创作都像是与自己内心的对话，那种笔尖与纸面摩擦的声音，
+                            颜料在画布上渐渐干涸的痕迹，都是无法替代的体验。手工绘画作品往往带有明显的个人风格和手作的温度，让人感受到时间的痕迹和艺术家的情感投入。<br>
+                            <div class="article-img">
+                                <img src="../../../public/pic/Culture/article/draw2.jpg" alt="" srcset="">
+                            </div>
+                            &nbsp;&nbsp;数码绘画，则是科技进步带给艺术界的革新。借助电脑软件和数位板，我们可以模拟各种传统绘画媒介的效果，甚至创造出超越实体材料的表现力。
+                            对于我来说，数码绘画最大的吸引力在于它的便捷性和无限的可塑性。我可以轻易调整颜色、尝试不同的画风，即便是错误也可以轻松撤销，无需担心材料的损耗。
+                            而且，数字化的作品便于保存和传播，不受时间和空间的限制，这对于想要分享作品的我来说极为便利。数码绘画让我在晚年也能继续探索新的艺术领域，
+                            不受身体条件的太多限制，依然能尽情挥洒创意。<br>
+                            <div class="article-img">
+                                <img src="../../../public/pic/Culture/article/draw3.jpg" alt="" srcset="">
+                            </div>
+                            &nbsp;&nbsp;尽管数码绘画带来了前所未有的自由度和效率，但我始终认为，手工绘画那种从心到手，再到纸面的直接传达，是数码工具难以完全复刻的。
+                            两者之间并不是非此即彼的选择，而是可以相互补充的。<br>
+                            <div class="article-img">
+                                <img src="../../../public/pic/Culture/article/draw4.jpg" alt="" srcset="">
+                            </div>
+                            许多艺术家包括我自己，会在不同的创作阶段或项目中灵活运用这两种方式，以达到最佳的艺术效果。
+                            无论是沉浸在油墨的香气中，还是在光与电的屏幕前挥洒创意，每一种绘画方式都有其独特的魅力，都值得我们用心去体验和享受。<br>
+                            
+                          </p>
+                          
+                        </div>
+                    </el-col>
+                </el-row>
+            </el-col>
+            <el-col :span="4"><div class="nothing"></div></el-col>
+        </el-row>
+
+          
+
+       
     </div>
 </template>
 
