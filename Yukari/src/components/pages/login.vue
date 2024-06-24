@@ -22,7 +22,9 @@
 <script setup>
 import { ref, reactive } from 'vue'
 import { ElMessage } from 'element-plus'
+import { useRouter } from 'vue-router';
 
+// 用户参数
 const phone = ref('')
 const password = ref('')
 
@@ -30,6 +32,9 @@ const user = reactive({
     phone: '',
     password: ''
 })
+
+// 获取路由实例
+const router = useRouter()
 
 const matchPhone = /^1[3-9]\d{9}$/; // 匹配中国大陆手机号的正则表达式
 
@@ -42,6 +47,14 @@ const login = () => {
   }
   if (!user.password) {
     ElMessage.error('请输入密码')
+  }else{
+    ElMessage.success('登录成功')
+    setTimeout(() => {
+      ElMessage.info('即将跳转到首页')
+    }, 1000)
+    setTimeout(() => {
+      router.push('/')
+    }, 3000)
   }
   
 }
