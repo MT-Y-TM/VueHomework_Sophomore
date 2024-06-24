@@ -14,7 +14,7 @@
 
 8.社区（Community）模块包含使用element-plus组件库的
 
-9.文化康养（Culture）模块包含使用element-plus组件库的
+9.文化康养（Culture）模块包含使用element-plus组件库的Layout布局，用于实现投稿用户的头像+文章的显示效果。
 
 10.登陆/注册（LoginPage）模块包含使用element-plus组件库的Tabs标签页，用于实现用户的登陆注册功能的单独显示。
 
