@@ -32,9 +32,9 @@ import Signup from './Signup.vue';
 .Box {
   width: 1100px;
   height: 800px;
-  background-color: #f5f5f5;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #60cdecbe;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgb(144, 218, 255);
   display: flex;
   flex-direction: column;
   justify-content: center;

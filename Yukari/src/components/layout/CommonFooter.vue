@@ -1,9 +1,9 @@
 
 <template>
     <el-footer class="footer">
-        Copyright © 2008-2024 下北泽信息技术有限公司
+        Copyright © 2008-2024 下北泽信息技术有限公司&nbsp&&nbsp下北泽美好家园养老集团
         <br>
-        地址：广东省广州市越秀区动漫星城西区负三层夹层BW233
+        地址：广东省广州市越秀区动漫星城西区负三层夹层BW233&nbsp&&nbsp广东省广州市白云区三元里远景路27号
         <br>
         电话：114-51419198
         <br>
@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-// import { el } from 'element-plus/es/locale/index.mjs';
+
 </script>
 
 <style>
