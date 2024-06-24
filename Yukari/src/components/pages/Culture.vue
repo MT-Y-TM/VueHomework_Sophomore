@@ -148,6 +148,21 @@
             </el-col>
             <el-col :span="4"><div class="nothing"></div></el-col>
         </el-row>
+        <el-backtop :bottom="100">
+            <div
+              style="
+                height: 100%;
+                width: 100%;
+                background-color: rgb(144, 218, 255);
+                text-align: center;
+                line-height: 40px;
+                color: #1989fa;
+                border-radius: 50%;
+              "
+            >
+              ↑
+            </div>
+          </el-backtop>
         <p style="text-align:center;margin-top:50px;margin-bottom:50px;">
             网站后端资源维护中...
             <br>
