@@ -19,6 +19,9 @@
                             <h2>妖梦的阎魔刀</h2>
                             <h4>评论于40分钟前</h4>
                             今天哭火炎村的糯米新品，真的是太香了！建议粥吧老爷们都来尝一尝😋这是我喝过哭火炎村的最好喝的饮品！！
+                            <div class="article-img">
+                                <img src="../../../public/pic/Community/ContentImg/MXBC.jpg" alt="" srcset="">
+                            </div>
                         </div>
                     </el-col>
                 </el-row>
@@ -88,7 +91,7 @@
                     </el-col>
                     <el-col :span="18">
                         <div class="ContentBox">
-                            <h2>月球打工仔</h2>
+                            <h2>月球退休工</h2>
                             <h4>评论于2小时前</h4>
                             想你了，BYD记忆<br>
                             風の声光の粒<br>
@@ -171,6 +174,30 @@
             </el-col>
             <el-col :span="4"><div class="nothing"></div></el-col>
           </el-row>
+          
+          <Tips>
+            <p style="text-align:center;margin-top:50px;margin-bottom:50px;">
+                网站后端资源维护中...
+                <br>
+                维护完成时，将把以往文章资源重新开放...
+            </p>
+        </Tips>
+
+        <el-backtop :bottom="100">
+            <div
+              style="
+                height: 100%;
+                width: 100%;
+                background-color: rgb(144, 218, 255);
+                text-align: center;
+                line-height: 40px;
+                color: #1989fa;
+                border-radius: 50%;
+              "
+            >
+              ↑
+            </div>
+          </el-backtop>
     </div>
 </template>
 

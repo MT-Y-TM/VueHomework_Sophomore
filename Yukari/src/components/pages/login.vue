@@ -47,7 +47,7 @@ const login = () => {
   }
   if (!user.password) {
     ElMessage.error('请输入密码')
-  }else{
+  }else if(matchPhone.test(user.phone)&&user.password.length>=6){
     ElMessage.success('登录成功')
     setTimeout(() => {
       ElMessage.info('即将跳转到首页')

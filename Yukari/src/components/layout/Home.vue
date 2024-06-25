@@ -23,4 +23,5 @@ body {
 import CommonHeader from './CommonHeader.vue'
 import CommonContent from './CommonContent.vue'
 import CommonFooter from './CommonFooter.vue'
+import Tips from '../Pages/Tips.vue';
 </script>

@@ -148,6 +148,15 @@
             </el-col>
             <el-col :span="4"><div class="nothing"></div></el-col>
         </el-row>
+
+        <Tips>
+            <p style="text-align:center;margin-top:50px;margin-bottom:50px;">
+                网站后端资源维护中...
+                <br>
+                维护完成时，将把以往文章资源重新开放...
+            </p>
+        </Tips>
+
         <el-backtop :bottom="100">
             <div
               style="
@@ -163,12 +172,6 @@
               ↑
             </div>
           </el-backtop>
-        <p style="text-align:center;margin-top:50px;margin-bottom:50px;">
-            网站后端资源维护中...
-            <br>
-            维护完成时，将把以往文章资源重新开放...
-        </p>
-        <hr>
     </div>
 </template>
 
